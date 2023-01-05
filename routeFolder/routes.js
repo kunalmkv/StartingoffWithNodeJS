@@ -1,6 +1,6 @@
-const http = require('http');
 const fs = require('fs');
-const server = http.createServer(function (req, res) {
+//function requestHandler(req,res){}
+const requestHandler = (req, res) => {
     const method = req.method;
     const url = req.url;
     if (url === '/') {
@@ -39,6 +39,6 @@ const server = http.createServer(function (req, res) {
     res.write('<body><h1> Hello My name is kunal Mishra</h1></body>');
     res.write('</html>');
     res.end();
-    //process.exit();
-});
-server.listen(3000);
+
+}
+module.exports = requestHandler;
