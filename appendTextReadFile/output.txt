@@ -1,0 +1,5 @@
+this is a sample text file and we will read. 
+ 
+ the content of this file will be appended to input.txt and will be written in output.txt 
+ 
+ Date created : Fri Jan 06 2023 10:32:26 GMT+0530 (India Standard Time)
