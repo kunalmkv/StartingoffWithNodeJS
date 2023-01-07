@@ -45,13 +45,6 @@ const requestHandler = (req, res) => {
 
     }
 
-    if (url === '/about' && method == 'GET') {
-        res.write('<html>');
-        res.write('<head><title> About </title></head>');
-        res.write('<body><h1> Hello this is about section and this is my first custom response</h1></body>');
-        res.write('</html>');
-        res.end();
-    }
 
 }
 module.exports = {
